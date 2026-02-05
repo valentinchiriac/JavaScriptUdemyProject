@@ -55,3 +55,8 @@ console.log(ageZada >= 18);
 
 const isFullAge = ageZada >= 18;
 console.log("Zada is major: " + isFullAge);
+
+console.log(ageValentin, ageZada);
+var averageAge = 0;
+averageAge = (ageValentin + ageZada) / 2;
+console.log("The average age is " + averageAge);
